@@ -1,3 +1,4 @@
+@import url();
 #content {
     max-width: 1600px;
     margin: 0 auto;  
@@ -21,6 +22,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #84d5f7;
 }
 body {
     background-color: #fff;
@@ -40,9 +42,6 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: #ebb905;
     color: #fff;
-}
-#background {
-    background-color: #84d5f7;
 }
 .msg {
     background-color: rgba(248, 236, 70, 0.993) ;
