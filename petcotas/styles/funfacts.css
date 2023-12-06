@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: #581845;
+    text-align: center;
+    padding: 8px 20px;
+    justify-content: space-around;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 110px;
+    border-radius: 80px;
+    text-align: center;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 200%;
+    padding-bottom: 1%;
+    font-family: "Playpen Sans";
+}
+nav a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-top: 0%;
+}
+nav a:hover{
+    color: #ff5733;
+}
+
+#firstgrid{
+    background: #e64f7a;
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px auto;
+    grid-template-rows: 150px 150px 150px 150px  ;
+    margin-top: 15px;
+}
+#one{
+    grid-column: 2/5; 
+}
+#firstimage{
+    width:350px;
+    height: 250px;
+    border-radius: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 8px solid #900c3f;
+    
+}
+#two{
+    grid-column: 5/9;
+}
+#secondimage{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    border: 8px solid #ffc300
+}
+#three{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+#thirdimage{
+    width: 250px;
+    height: 200px;
+    margin-top:50% ;
+    border-radius: 65%;
+    border: 8px solid #c70039;
+}
+#four{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+#fourthimage{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    border: 8px solid #f5451e;
+}
+#five{
+    grid-column: 9/13;
+    grid-row: 1/3;
+    font-size: 450%;
+    margin-left: 25%;
+    margin-bottom: 13%;
+    color: white; 
+    font-family: "Playpen Sans";
+}
+
+#gridmain{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+.subgrid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+.firstcolor{
+    background: #ffc300;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+.secondcolor{
+    background: #f5451e;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+.threecolor{
+    background: #c70039;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+.imagenes{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    border: 5px solid black;
+}
+.uno{
+    border: 5px solid #c70039;
+}
+.dos{
+    border: 5px solid #f5451e;
+}
+.tres{
+    border: 10px solid #ffc300;
+}
+
+.mainparrafo{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 150%;
+    font-family: Roboto;
+}
+
+.names{
+    font-family: "Playpen Sans";
+    font-size: 200%;
+    color: #fff;
+}
+#cerdo{
+    font-size: 135%;
+}
+
+footer{
+    background-color: #581845;
+    color: #fff;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playpen Sans";
+}
+footer a {
+    color: #ffc300;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#fff;
+}
+footer p {
+    font-size: 1.5em;
+}
+footer p:hover {
+    text-decoration: underline;
+}
+#lola {
+    text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
+}
