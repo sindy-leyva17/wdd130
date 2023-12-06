@@ -118,7 +118,7 @@ nav a:hover{
 }
 .firstcolor{
     background: #ffc300;
-    width: 350px;
+    width: 400px;
     height: 500px;
     margin: auto;
     margin-top: 20px;
@@ -127,7 +127,7 @@ nav a:hover{
 }
 .secondcolor{
     background: #f5451e;
-    width: 350px;
+    width: 400px;
     height: 500px;
     margin: auto;
     margin-top: 20px;
@@ -136,7 +136,7 @@ nav a:hover{
 }
 .threecolor{
     background: #c70039;
-    width: 350px;
+    width: 400px;
     height: 500px;
     margin: auto;
     margin-top: 20px;
@@ -184,7 +184,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "Playpen Sans";
+    font-family: Playpen Sans;
 }
 footer a {
     color: #ffc300;
